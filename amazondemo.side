@@ -1,0 +1,236 @@
+{
+  "id": "974c9db3-621a-49ae-9a95-cbd325006f8e",
+  "version": "2.0",
+  "name": "amazondemo",
+  "url": "https://www.amazon.com",
+  "tests": [{
+    "id": "1529408c-3533-4eb0-9f77-fe35b3cde797",
+    "name": "Untitled",
+    "commands": [{
+      "id": "a01c2e54-00ef-427c-88e6-4aec151205a4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caf38214-6084-4a1b-a91b-8668dec62fa5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x568",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abdc4e02-4a95-4a10-b98e-8d139a9f77a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89ba962f-c548-437b-98f5-7942170b3615",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "watches"
+    }, {
+      "id": "fefc15c5-b3af-48f9-a2cd-e9970fc026ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=issDiv0",
+      "targets": [
+        ["id=issDiv0", "id"],
+        ["css=#issDiv0", "css:finder"],
+        ["xpath=//div[@id='issDiv0']", "xpath:attributes"],
+        ["xpath=//div[@id='suggestions']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91916ade-d51a-4122-ad02-4af44a7f793f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sell",
+      "targets": [
+        ["linkText=Sell", "linkText"],
+        ["css=.nav-a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sell')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell_9321d964d1ab428b8d83e204c043fc01')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sell')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7586c03f-33e2-4e03-ab0c-db5257fb662d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Today's Deals",
+      "targets": [
+        ["linkText=Today's Deals", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='nav-xshop']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/goldbox?ref_=nav_cs_gb_5d8ef71f209b44c2acab6343d6a5a05e')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d459df9-05f6-481d-a595-884715bd9e87",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Today's Deals",
+      "targets": [
+        ["linkText=Today's Deals", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='nav-xshop']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/goldbox?ref_=nav_cs_gb_5d8ef71f209b44c2acab6343d6a5a05e')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28f9fa69-439c-44f5-b289-8edec76611fe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Registry",
+      "targets": [
+        ["linkText=Registry", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Registry')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/browse.html?node=16115931011&ref_=nav_cs_registry_1c421982e26d4ec48ca364be68f201b5')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Registry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0690000-fe45-40fc-b9fe-073f82763508",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchDropdownBox",
+      "targets": [
+        ["id=searchDropdownBox", "id"],
+        ["name=url", "name"],
+        ["css=#searchDropdownBox", "css:finder"],
+        ["xpath=//select[@id='searchDropdownBox']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-search-dropdown-card']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d044a7cc-4830-4b6d-af68-4fe49b4a3349",
+      "comment": "",
+      "command": "select",
+      "target": "id=searchDropdownBox",
+      "targets": [],
+      "value": "label=Electronics"
+    }, {
+      "id": "24bbeb4f-b3c4-4ba7-b5df-c799cc0a3698",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(9)",
+      "targets": [
+        ["css=option:nth-child(9)", "css:finder"],
+        ["xpath=//option[@value='search-alias=electronics-intl-ship']", "xpath:attributes"],
+        ["xpath=//select[@id='searchDropdownBox']/option[9]", "xpath:idRelative"],
+        ["xpath=//option[9]", "xpath:position"],
+        ["xpath=//option[contains(.,'Electronics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "128e0291-ee5a-42f6-935c-0902a0bdb365",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fcd9377-2de5-4e17-9184-a5b23777dde5",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eef91885-211c-4057-91a2-5842ccc8fd6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28ff9f43-16cc-4bce-9850-5c0751a06293",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "watch"
+    }, {
+      "id": "1d561cf9-8ac5-4d37-bcb4-0bda23687f07",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "6c882370-5847-4f14-a163-a88f69fb33ca",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1529408c-3533-4eb0-9f77-fe35b3cde797"]
+  }],
+  "urls": ["https://www.amazon.com/"],
+  "plugins": []
+}
